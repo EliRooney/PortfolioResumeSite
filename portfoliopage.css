@@ -1,0 +1,95 @@
+.slider
+{
+	width: 486px;
+	height: 486px;
+	overflow: hidden;
+}
+
+.slider .slides
+{
+	display: block;
+	width: 20000px;
+	height: 486px;
+	margin: 0;
+	padding: 0;
+}
+
+.slider .slide
+{
+	float: left;
+	list-style-type: none;
+	width: 486px;
+	height: 486px;
+}
+
+.info
+{
+	display: flex;
+	justify-content: center;
+	font-family: "Raleway", sans-serif;
+    font-weight: 550;
+    font-size: 15px; 
+    letter-spacing: 2px;
+    color: #000000;
+    line-height: 36px;
+}
+
+
+
+.listOfSkills
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.LoS
+{
+	list-style-type: none;
+	font-family: "Raleway", sans-serif;
+    font-weight: 550;
+    font-size: 15px; 
+    letter-spacing: 2px;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.SkillOne
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	opacity: 1;
+}
+
+.SkillTwo
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	opacity: 0;
+}
+
+.divSkills
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button3
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid;
+  border-color: rgba(160,010,050,.75);
+  text-decoration-line: none;
+  font-family: "Droid Serif", serif;
+  padding: 10px;
+  border-spacing: 10px;
+}

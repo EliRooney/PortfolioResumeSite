@@ -1,0 +1,415 @@
+/* THE BODY PART*/
+body
+{
+    /*text-align: center;
+    margin: 0;
+    background-image: url("images/Time Square.jpg");
+    background-size: 100vw;
+    */
+}
+.headerText
+{
+	
+	font-size: 5vw;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	/*background-color: rgba(160,010,050,.75);*/
+	padding-top: 100px;
+	padding-bottom: 30px;
+	padding-left: 35vw;
+	padding-right: 10px;
+	color: #000000;
+}
+main
+{
+
+	/*width: 1000px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(160,010,050,.75);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 20px;*/
+	z-index: 1;
+}
+
+footer
+{
+	padding-right, left: 20px;
+	/*background-color: #0D2C40;*/
+	color: black;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+	background-color: rgba(160, 10, 50, .15);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+/*Make the footer visable*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+/*HEADINGS*/
+/*h1*/
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin: 0;
+}
+.h2 {
+	display: flex;
+	justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: #000000;
+    /*background-color: rgba(160,010,050,.75);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 20px;
+	*/
+}
+.h3
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 2px;
+    color: #000000;
+    padding-right: 2vw;
+    /*background-color: rgba(160,010,050,.75);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 200px;*/
+}
+
+.h4
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 2px;
+    color: #000000;
+    padding-right: 22vw;
+    padding-top: 10vw;
+    /*background-color: rgba(160,010,050,.75);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 200px;*/
+}
+
+h3.contactMe
+{/*
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 100px;
+	*/
+}
+
+
+/*PARAGRAPHS
+/*intructions explaination*/
+.p1b1
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.p1i1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#p1
+{
+	font: Raleway;
+	width: 60vw;
+  	font-size: 28px;
+  	margin-left: 3px;
+}
+#b1
+{
+	display: flex;
+	justify-content: center;
+}
+
+.p2b2
+{
+	display: flex;
+	flex-direction: column;
+}
+.p2i2
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+.p2
+{
+	
+	float: left;
+	width: 60vw;	
+  	font-size: 28px;
+}
+
+.b2
+{
+	display: flex;
+	justify-content: center;
+}
+.c1
+{
+	/*display: flex;
+	flex-direction: row-reverse;
+	align-items: space-around;
+	justify-content: flex-start;*/
+}
+
+p {
+  font-family: "Droid Serif", serif;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: left;
+}
+p.first
+{
+	display: flex;
+	justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 550;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: #000000;
+    line-height: 36px;
+}
+p.second
+{
+	font: Raleway;
+	float: center;
+	margin-left: 100px;
+	line-height: 30px;
+  	font-size: 28px;
+ }
+
+p.copyright
+{
+	font: Raleway;
+	float: left;
+	margin-left: 16px;
+}
+
+p.message
+{
+	font: Raleway;
+	float: right;
+	margin-right: 16px;
+}
+
+#animate
+{
+	display: flex;
+	flex-direction: row-reverse;
+	position: relative;
+    border: 1px solid green;
+    background: yellow;
+}
+
+
+/*ANCHORS*/
+/*a
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid;
+	border-color: rgba(160,010,050,.75);
+	text-decoration-line: none;
+	font-family: "Droid Serif", serif;
+
+}
+
+a:hover 
+{
+  border: 2px solid rgba(160,010,050,1);
+}
+*/
+a.second
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid;
+	border-color: rgba(160,010,050,.75);
+	text-decoration-line: none;
+	font-family: "Droid Serif", serif;
+	padding: 10px;
+	border-spacing: 10px;
+
+}
+
+a.second:hover 
+{
+  	
+	-moz-box-shadow: 0 0 30px #ccc;
+	-webkit-box-shadow: 0 0 30px #ccc;
+	box-shadow: 0 0 30px #ccc;
+
+}
+
+a.linkedin
+{
+	
+	border-radius: 50% none;
+	border-color: white;
+	text-decoration-line: none;
+	font-family: "Droid Serif", serif;
+	padding: 0px;
+	border-spacing: 5px;
+	z-index: 0;
+
+}
+/*NAVS*/
+nav
+{
+	background-color: #00A6B3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*IMAGES*/
+img
+{
+	margin-top: 40px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+img.artworkR
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30vw;
+	margin-right: 1vw;
+	margin-bottom: 2vw;
+}
+
+#artworkL
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30vw;
+	margin-left: 1vw;
+	margin-bottom: 2vw;
+}
+
+img.artwork:hover
+{/*
+	display: flex;
+	width: 30vw;
+	box-shadow: 10px 10px 5px #888888;
+    -webkit-transition: -webkit-transform 4s;
+    -moz-transition: -moz-transform 4s;
+    -o-transition: -o-transform 4s;
+    transition: transform 4s;*/
+}
+
+
+/*SPANS*/
+span.name
+{
+	color: #F15B31;
+	font-weight: 700;
+}
+
+
+/*TABLE*/
+
+td.right
+{
+	align-items: right;
+}
+
+
+/*LIST*/
+ul 
+{	
+    margin: 0;
+    padding: 0;
+    top: 310vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+ul li 
+{
+	list-style: none;
+    float: left;
+    margin: 3vw;
+    width: 10vw;
+    height: 10vw;
+    line-height: 10vw;
+    text-align: center;
+    background: white;
+    border-radius: 50%;
+    font-size: 4vw;
+    color: #e12525;
+}
+
+.phone
+{
+	list-style: none;
+    float: left;
+    margin: 3vw;
+    width: 10vw;
+    height: 10vw;
+    
+    text-align: center;
+    font-size: 4vw;
+    color: #e12525;
+}
+
+
+.container
+{
+	max-width: auto;
+	margin: 0 auto;
+	background: rgba(160, 10, 50, .25);
+}
+
+.parallax
+{
+	background: url("images/glassBreak.jpg") no-repeat center;
+	background-size: 100vw;
+	background-attachment: fixed;
+	height: 25vw;
+}

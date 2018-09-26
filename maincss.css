@@ -1,0 +1,294 @@
+div
+{
+  width: 98vw;
+  height: auto;
+}
+.divBoth
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.imageOne
+{
+  display: flex;
+  padding-right: 5px;
+  width: 950px;
+
+}
+.imageTwo
+{
+  display: flex;
+  padding-left: 5vw;
+  width: 15px;
+}
+.imageResume
+{
+  width: auto;
+}
+
+.divOne
+{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divTwo
+{
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img
+{
+  width: 400px;
+  height: 500px;
+}
+
+.divOnePic
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.divTwoPic
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container
+{
+  max-width: auto;
+  margin: 0 auto;
+  background: rgba(160, 10, 50, 0);
+}
+.parallax
+{
+  background: url("images/glassBreak2.jpg") no-repeat center;
+  background-size: 100vw;
+  background-attachment: fixed;
+  height: 35vw;
+}
+
+.homeButton
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  border-color: none;
+  text-decoration-line: none;
+  font-family: "Droid Serif", serif;
+  padding-left: 15px;
+  border-spacing: 10px;
+}
+
+.button1
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid;
+  border-color: rgba(160,010,050,.75);
+  text-decoration-line: none;
+  font-family: "Droid Serif", serif;
+  padding: 10px;
+  border-spacing: 10px;
+}
+
+.button:hover 
+{
+  border-color: rgba(200,110,150, 1);
+  -moz-box-shadow: 0 0 30px #ccc;
+  -webkit-box-shadow: 0 0 30px #ccc;
+  box-shadow: 0 0 30px #ccc;
+
+}
+
+.test1
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 550;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: #000000;
+    line-height: 36px;
+}
+
+.quote
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 550;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: #000000;
+    line-height: 36px;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-top: 5vw;
+}
+
+#p1
+{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#p2
+{
+    padding-right: 5vw;
+    padding-left: 40vw;
+}
+
+#p3
+{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+h2 
+{
+  display: flex;
+  justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: #000000;
+  }
+  h2.HomeAndAway
+{
+    padding-left: 170px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    color: #000000;
+  }
+
+  ul.homepage
+{ 
+    margin: 0;
+    padding: 0;
+    top: 366vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+ul.portpage
+{ 
+    margin: 0;
+    padding: 0;
+    top: 516vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+ ul.topBar
+{ 
+    margin: 0;
+    padding: 0;
+    top: 0vh;
+    left: 25vw;
+    position: absolute;
+    text-decoration-line: none;
+}
+
+img.MSU
+{
+  padding-top: 110px;
+}
+
+ul.bio
+{ 
+    margin: 0;
+    padding: 0;
+    top: 506vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+ul.resumePage
+{ 
+    margin: 0;
+    padding: 0;
+    top: 336vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+ul li.hp
+{
+  list-style: none;
+    float: left;
+    margin: 3vw;
+    width: 10vw;
+    height: 10vw;
+    line-height: 10vw;
+    text-align: center;
+    background: white;
+    border-radius: 50%;
+    font-size: 4vw;
+    color: #e12525;
+}
+
+ul li.tb
+{
+    list-style: none;
+    float: left;
+    margin: 3vw;
+    width: 14vw;
+    height: 0vw;
+    text-decoration-line: none;
+    /*line-height: 10vw;
+    text-align: center;
+    background: white;
+    border-radius: 50%;*/
+    font-size: 2vw;
+    color: #000000;
+}
+
+
+
+.contactMe
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: right;
+    letter-spacing: 2px;
+    color: #000000;
+    padding-right: 42vw;
+    padding-top: 5vw;
+}
+
+.headerText
+{
+  font-size: 8vw;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  /*background-color: rgba(160,010,050,.75);*/
+  padding-top: 140px;
+  padding-left: 26vw;
+  padding-right: 10px;
+  color: #000000;
+}
+
+body
+{
+  background: rgba(160, 10, 50, .25);
+}
+
